@@ -272,3 +272,17 @@
   - 前端：`CourseManagerVue/src/common/permission.js`
   - 后端：`CourseManagerApi - idea/src/main/java/com/rabbiter/cm/config/themis/annotation/Admin.java`
   - 采用 bitmask 方式存储，例如 `255` 表示拥有全部管理员权限。
+
+---
+
+## 7. 启动指令（前后端）
+
+- 后端（Spring Boot）：
+  - `cd /path/to/studentChoseClassProject`
+  - `cd "CourseManagerApi - idea"`
+  - `mvn spring-boot:run`
+- 前端（Vue）：
+  - `cd /path/to/studentChoseClassProject`
+  - `cd "CourseManagerVue"`
+  - `npm install`
+  - `npm run serve`
