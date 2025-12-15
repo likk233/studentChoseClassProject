@@ -14,6 +14,10 @@
  Date: 08/12/2025 14:55:48
 */
 
+DROP DATABASE IF EXISTS `course_manager`;
+CREATE DATABASE `course_manager` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `course_manager`;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
